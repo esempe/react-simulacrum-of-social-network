@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+.Header {
+    background: #13CE66;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.global-container {
+    width: 1740px;
+    margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.header-logo img {
+    padding: 8px;
+    width: 80px;
+    height: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-flex {
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-text {
+    font-size: 34px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Side-nav {
+    height: 1000px;
+    background: #13CE66;
+    margin-top: 15px;
+    flex: 0 1 20%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.side-nav-item-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.side-nav__item:last-child {
+    margin-top: 25px;
+}
+
+.side-nav__item {}
+
+.side-nav__item a {
+    color: white;
+    text-decoration: none;
+}
+
+.User-profile {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.user-profile-wrapper {}
+
+.user-profile__wallpaper {}
+
+.user-profile__wallpaper img {
+    height: 300px;
+    width: 1500px;
+}
+
+.user-profile-info-wrapper {
+    margin-top: 15px;
+    display: flex;
+}
+
+.user-profile__avatar {}
+
+.user-profile__avatar img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.user-profile-info__textblock {
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-profile-info__textblock:first-child {
+    color: red;
+}
+
+.user-profile-info__textblock-name {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.user-profile-info__textblock-dob {
+    font-size: 25px;
+}
+
+.user-profile-info__textblock-city {
+    font-size: 25px;
+}
+
+.user-profile-info__textblock-EDU {
+    font-size: 25px;
+}
+
+.user-profile-info__textblock-website {
+    font-size: 25px;
+}
+
+.Users-posts {
+    margin-top: 65px;
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+    width: 80%;
+}
+
+.users-posts__tittle {
+    font-size: 42px;
+}
+
+.users-posts__input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 80px;
+    border: 0;
+    background-color: #E6EEEA;
+    color: #B0B8C2;
+    text-align: start;
+}
+
+.users-posts__button {
+    align-self: flex-end;
+    height: 50px;
+    width: 150px;
+    color: white;
+    padding-left: 26px;
+    text-decoration: none;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    background-color: #13CE66;
+}
+
+.users-posts__items-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+}
+
+.users-posts__item {
+    display: flex;
+}
+
+.users-posts__item-avatar {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #FFC82C;
+}
+
+.users-posts__item-text {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
 }
