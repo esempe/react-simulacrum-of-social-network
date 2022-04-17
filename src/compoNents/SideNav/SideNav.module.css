@@ -1,0 +1,28 @@
+.text {
+    font-size: 34px;
+}
+
+.SideNav {
+    height: 1000px;
+    background: #13CE66;
+    margin-top: 15px;
+    flex: 0 1 20%;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+
+
+.item:last-child {
+    margin-top: 25px;
+}
+
+
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
