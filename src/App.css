@@ -5,9 +5,8 @@
 .main-flex {
     display: flex;
 }
-.UserProfile {
-    margin-top: 15px;
-    margin-left: 15px;
+.main-container{
+    width: 1374px;
 }
 .UserPostsContainer {
     display: flex;

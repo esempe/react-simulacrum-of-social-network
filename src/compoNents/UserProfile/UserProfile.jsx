@@ -10,7 +10,6 @@ const UserProfile = () => {
             <UserWallpaper/>
             <UserProfileInfo />
             <UserTextarea />
-
             <UserPosts />
         </div>
     )
