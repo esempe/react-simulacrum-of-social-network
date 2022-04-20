@@ -1,29 +1,33 @@
 import React from 'react'
 import style from './SideNav.module.css'
 import {
-    Link,Outlet
+    Link,NavLink
 } from "react-router-dom";
 
 const SideNav = () => {
+
+    let LinkActive = ({isActive})=> {
+        return isActive ? style.active : style.text;
+    }
+
     return (
         <div  className={style.SideNav}>
             <div className={style.item}>
-                <a href='/profile' className={style.text} >Profiles</a>
+                <NavLink to='/profile' className={LinkActive} >Profiles</NavLink>
             </div>
             <div className={style.item}>
-                <a href='/dialogs' className={style.text} >Messeges</a>
+                <NavLink to='/dialogs' className={LinkActive} >Messeges</NavLink>
             </div>
             <div className={style.item}>
-                <a href='/feed' className={style.text} >News</a>
+                <NavLink to='/feed'className={LinkActive} >News</NavLink>
             </div>
             <div className={style.item}>
-                <a href='/music' className={style.text} >Music</a>
+                <NavLink to='/music' className={LinkActive} >Music</NavLink>
             </div>
             <div className={style.item} >
-                <a href='/settings' className={style.text} >Settings</a>
+                <NavLink to='/settings' className={LinkActive} >Settings</NavLink>
             </div>
         </div>
     )
 }
-
 export default SideNav

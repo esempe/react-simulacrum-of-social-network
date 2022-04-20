@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734d8b43-e94b-469d-bfa7-836ca1bf44d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/react-simulacrum-of-social-network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/userWallpaper/UserWallpaper.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/userWallpaper/UserWallpaper.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/header/Header.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +34,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
     "ts.external.directory.path": "Z:\\soft fast\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -62,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650221348218</updated>
       <workItem from="1650221358545" duration="633000" />
-      <workItem from="1650269869089" duration="7409000" />
+      <workItem from="1650269869089" duration="23228000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,6 @@
-.text {
+.text{
+    color: white;
+    text-decoration: none;
     font-size: 34px;
 }
 
@@ -22,8 +24,15 @@
 }
 
 
-
-.item a {
+/*.item a {
     color: white;
+    text-decoration: none;
+    font-size: 34px;
+}*/
+
+.active {
+    color: red;
+    font-size: 34px;
+    background: #13CE66;
     text-decoration: none;
 }
