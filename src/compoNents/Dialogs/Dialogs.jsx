@@ -1,12 +1,35 @@
 import React from 'react';
 import style from './Dialogs.module.css'
+import СonversationItem from "./СonversationItem/СonversationItem";
+import MessagesWrapper from "./MessagesWrapper/MessagesWrapper";
 
 const Dialogs = (props) => {
-    let MessageLorem =  "Lorem ipsum dolor sit amet, \n" +
-        "                            consectetur adipisicing elit. Accusantium, quisquam? Lorem \n" +
-        "                            ipsum dolor sit amet, consectetur adipisicing elit. Dicta \n" +
-        "                            doloremque eligendi, esse eum impedit ipsam itaque labore \n"
-
+    let conversationsData = [ //входные данные
+        {id: 1, name: 'Rocky'},
+        {id: 2, name: 'Anrew'},
+        {id: 3, name: 'Anorick'},
+        {id: 4, name: 'Anatoly'},
+        {id: 5, name: 'Rocky'},
+        {id: 6, name: 'Rocky'},
+        {id: 7, name: 'Ramen'},
+        {id: 8, name: 'Denzlo'},
+    ];
+    let messegeData = [  //входные данные
+        {id: 1, message: 'Hy how are you??'},
+        {id: 2, message: 'bebra karpacho!'},
+        {id: 3, message: 'really?? you are layer'},
+        {id: 4, message: 'noo way'},
+        {id: 5, message: 'magick is dred'},
+        {id: 6, message: 'falco and gabby'},
+        {id: 7, message: 'ramires little dirty'},
+        {id: 8, message: 'my first message!!!'},
+    ];
+    let messageElements = messegeData.map( (messege) =>
+        <MessagesWrapper message={messege.message}/>
+    );
+    let conversationsElements = conversationsData.map((conversation) =>
+        <СonversationItem name={conversation.name} id={conversation.id} />
+    );
     return (
         <div>
             <div className={style.tittle}>
@@ -14,79 +37,14 @@ const Dialogs = (props) => {
             </div>
             <div className={style.dialogsWrapper}>
                 <div className={style.conversationsList}>
-                    <div className={style.conversationItem}>
-                        Andrew
-                    </div>
-                    <div className={style.conversationItem + ' ' + style.active}>
-                        Andrew
-                    </div>
-                    <div className={style.conversationItem}>
-                        Andrew
-                    </div>
-                    <div className={style.conversationItem}>
-                        Andrew
-                    </div>
-                    <div className={style.conversationItem}>
-                        Andrew
-                    </div>
+                    {conversationsElements}
                 </div>
                 <div className={style.conversation}>
-                    <div className={style.messagesWrapper}>
-                        <div className={style.senderInfo}>
-                            <div className={style.senderAvatar}>
-                                ʕ•́ᴥ•̀ʔ
-                            </div>
-                            <div className={style.senderNickname}>
-                                Bebra
-                            </div>
-                        </div>
-                        <div className={style.messageItem}>
-                            {MessageLorem}
-                        </div>
-                    </div>
-                    <div className={style.messagesWrapper}>
-                        <div className={style.senderInfo}>
-                            <div className={style.senderAvatar}>
-                                ヽ(°□° )ノ
-                            </div>
-                            <div className={style.senderNickname}>
-                                Bebra
-                            </div>
-                        </div>
-                        <div className={style.messageItem}>
-                            {MessageLorem}
-                        </div>
-                    </div>
-                    <div className={style.messagesWrapper}>
-                        <div className={style.senderInfo}>
-                            <div className={style.senderAvatar}>
-                                img
-                            </div>
-                            <div className={style.senderNickname}>
-                                Bebra
-                            </div>
-                        </div>
-                        <div className={style.messageItem}>
-                            {MessageLorem}
-                        </div>
-                    </div>
-                    <div className={style.messagesWrapper}>
-                        <div className={style.senderInfo}>
-                            <div className={style.senderAvatar}>
-                                img
-                            </div>
-                            <div className={style.senderNickname}>
-                                Bebra
-                            </div>
-                        </div>
-                        <div className={style.messageItem}>
-                            {MessageLorem}
-                        </div>
-                    </div>
-
+                    {messageElements}
                 </div>
             </div>
         </div>
     )
 }
 export default Dialogs;
+

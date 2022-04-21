@@ -16,10 +16,10 @@ const SideNav = () => {
                 <NavLink to='/profile' className={LinkActive} >Profiles</NavLink>
             </div>
             <div className={style.item}>
-                <NavLink to='/dialogs' className={LinkActive} >Messeges</NavLink>
+                <NavLink to='dialogs/' className={LinkActive} >Messeges</NavLink>
             </div>
             <div className={style.item}>
-                <NavLink to='/feed'className={LinkActive} >News</NavLink>
+                <NavLink to='/feed' className={LinkActive} >News</NavLink>
             </div>
             <div className={style.item}>
                 <NavLink to='/music' className={LinkActive} >Music</NavLink>

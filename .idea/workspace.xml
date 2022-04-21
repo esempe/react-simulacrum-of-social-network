@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="734d8b43-e94b-469d-bfa7-836ca1bf44d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/СonversationItem/СonversationItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/СonversationItem/СonversationItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userPost_item/UserPost_item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userPost_item/UserPost_item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userPost_item/UserPost_item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userPost_item/UserPost_item.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "ts.external.directory.path": "Z:\\soft fast\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -48,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650221348218</updated>
       <workItem from="1650221358545" duration="633000" />
-      <workItem from="1650269869089" duration="23228000" />
+      <workItem from="1650269869089" duration="37943000" />
     </task>
     <servers />
   </component>

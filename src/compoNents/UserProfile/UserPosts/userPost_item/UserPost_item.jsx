@@ -8,7 +8,7 @@ const UserPost_item = (props) => {
                 </div>
                 <div className={style.textWrapper}>
                     <div className={style.postText}>{props.text}</div>
-                    <div className={style.postLikes}>{props.likes} likes</div>
+                    <div className={style.postLikes}>{props.likeCount} likes</div>
                 </div>
             </div>
         </div>
