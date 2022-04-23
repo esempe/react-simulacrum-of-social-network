@@ -8,7 +8,8 @@ import News from "./compoNents/News/News";
 import Music from "./compoNents/Music/Music";
 import Settings from "./compoNents/Settings/Settings";
 
-function App() {
+function App(props) {
+
     return (
 
 
@@ -18,11 +19,14 @@ function App() {
                 <div className="global-container">
                     <Header/>
                     <main className="main-flex">
-                        <SideNav/>
+                        <SideNav state={props.state.sideNav}/>
                         <div className="main-container">
                             <Routes>
-                                <Route path='/profile' element={<UserProfile/>}/>
-                                <Route path='/dialogs/*' element={<Dialogs/>}/>
+                                <Route path='/profile' element={
+                                    <UserProfile state={props.state.userProfile}/>}/>
+                                <Route path='/dialogs/*' element={
+                                    <Dialogs state={props.state.dialogs}
+                                />}/>
                                 <Route path='/feed' element={<News/>}/>
                                 <Route path='/music' element={<Music/>}/>
                                 <Route path='/settings' element={<Settings/>}/>
