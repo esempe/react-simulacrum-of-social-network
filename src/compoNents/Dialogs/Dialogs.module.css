@@ -13,7 +13,7 @@
 .dialogsWrapper::before{
     content: '';
     position: absolute;
-    left: 350px;
+    left: 25%;
     width: 2px;
     height: 100%;
     background-color: #E5E9F3;
