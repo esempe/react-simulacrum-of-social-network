@@ -1,9 +1,9 @@
-.UserProfile {
-    margin-top: 15px;
-    margin-left: 15px;
-    max-width: 1343px;
-}
 
+.UserTextarea_tittle{
+    margin-top: 65px;
+    font-size: 42px;
+    margin-left: 25px;
+}
 .user-profile__wallpaper img {
     height: 300px;
     width: 1700px;

@@ -23,10 +23,14 @@ function App(props) {
                         <div className="main-container">
                             <Routes>
                                 <Route path='/profile' element={
-                                    <UserProfile state={props.state.userProfile}/>}/>
+                                    <UserProfile userProfile={props.state.userProfile}
+                                                 addPost={props.addPost}
+                                                 updateNewPostText={props.updateNewPostText}
+
+                                    />}/>
                                 <Route path='/dialogs/*' element={
                                     <Dialogs state={props.state.dialogs}
-                                />}/>
+                                    />}/>
                                 <Route path='/feed' element={<News/>}/>
                                 <Route path='/music' element={<Music/>}/>
                                 <Route path='/settings' element={<Settings/>}/>

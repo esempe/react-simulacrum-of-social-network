@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734d8b43-e94b-469d-bfa7-836ca1bf44d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compoNents/SideNav/SideNavFreindsList/SideNavFriendsList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/SideNav/SideNav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <updated>1650221348218</updated>
       <workItem from="1650221358545" duration="633000" />
       <workItem from="1650269869089" duration="38551000" />
-      <workItem from="1650708938719" duration="16146000" />
+      <workItem from="1650708938719" duration="32255000" />
     </task>
     <servers />
   </component>
@@ -77,17 +77,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userPost_item/UserPost_item.jsx</url>
-          <line>6</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

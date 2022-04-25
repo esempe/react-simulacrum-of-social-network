@@ -7,7 +7,7 @@ import SideNavFriendsList from "./SideNavFreindsList/SideNavFriendsList";
 
 
 const SideNav = (props) => {
-    debugger;
+
     let LinkActive = ({isActive}) => {
         return isActive ? style.active : style.text;
     }

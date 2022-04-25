@@ -1,14 +1,14 @@
+import {rerenderEntireTree} from "../render";
+
 let state = {
     dialogs: {
         messageData: [  //входные данные
             {id: 1, message: 'Hy h1w are you??'},
             {id: 2, message: 'bebra karpacho!'},
-            {id: 3, message: 'really?? you are babrj'},
-            {id: 4, message: 'noo way'},
-            {id: 5, message: 'magick is dred'},
-            {id: 6, message: 'falco and gabby'},
-            {id: 7, message: 'ramires little dirty'},
-            {id: 8, message: 'my first message!!!'},
+            {id: 3, message: 'noo way'},
+            {id: 4, message: 'magick is dred'},
+            {id: 5, message: 'falco and gabby'},
+            {id: 6, message: 'my first message!!!'},
         ],
         conversationsData: [ //входные данные
             {id: 1, name: 'Rocky'},
@@ -32,7 +32,8 @@ let state = {
             {id: 6, message: 'falco and gabby', likeCount: '1327'},
             {id: 7, message: 'ramires little dirty', likeCount: '332'},
             {id: 8, message: 'my first post!!!', likeCount: '21'},
-        ]
+        ],
+        newPostText: ''
     },
     sideNav: {
         friendsList: [
@@ -43,5 +44,20 @@ let state = {
         ]
     }
 
+}
+export let addPost = () =>{
+    let newPost = {
+        id: 5,
+        message: state.userProfile.newPostText,
+        likeCount: 0
+    }
+    state.userProfile.postsData.push(newPost);
+    updateNewPostText('');
+    rerenderEntireTree(state);
+}
+
+export let updateNewPostText = (newText) =>{
+    state.userProfile.newPostText =newText;
+    rerenderEntireTree(state);
 }
 export default state;

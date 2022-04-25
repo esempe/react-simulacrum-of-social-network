@@ -4,14 +4,23 @@ import style from './UserProfile.module.css'
 import UserTextarea from './UserPosts/userTextarea/UserTextarea'
 import UserProfileInfo from './userProfileInfo/UserProfileInfo'
 import UserWallpaper from './userWallpaper/UserWallpaper'
+
+
 const UserProfile = (props) => {
 
     return (
-        <div className="UserProfile">
+        <div className={' '}>
             <UserWallpaper/>
             <UserProfileInfo />
-            <UserTextarea />
-            <UserPosts postsData={props.state.postsData} />
+            <div className={style.UserTextarea_tittle}>
+                My posts
+            </div>
+            <UserTextarea
+                addPost={props.addPost}
+                updateNewPostText={props.updateNewPostText}
+                newPostText={props.userProfile.newPostText}
+            />
+            <UserPosts postsData={props.userProfile.postsData}  />
         </div>
     )
 }
