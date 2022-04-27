@@ -9,10 +9,7 @@ import Music from "./compoNents/Music/Music";
 import Settings from "./compoNents/Settings/Settings";
 
 function App(props) {
-
     return (
-
-
         <BrowserRouter>
             <div className="App">
 

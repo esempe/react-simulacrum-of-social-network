@@ -1,27 +1,32 @@
 import React from 'react'
 import style from './UserTextarea.module.css'
+import store from "../../../../redux/state";
 
 
 const UserTextarea = (props) => {
     /////////
     let newPostElement = React.createRef();
-    let addPost = ()=>{
+    let addPost = () => {
         props.addPost();
+        props.updateNewPostText('5');
     }
-    let onPostChange = () =>{
+
+    let onPostChange = () => {
         let postMessage = newPostElement.current.value;
         props.updateNewPostText(postMessage);
+        console.log(props.userProfile.newPostText)
 
     }
     ////////
     return (
         <div className={style.UserTextarea}>
-            <textarea ref={newPostElement}
+            <textarea className={style.UserTextarea_input}
+                      ref={newPostElement}
                       onChange={onPostChange}
                       value={props.newPostText}
-                      className={style.UserTextarea_input}/>
+            />
             <div className={style.UserTextarea_button}
-            onClick={addPost}>
+                 onClick={addPost}>
                 Send
             </div>
         </div>
