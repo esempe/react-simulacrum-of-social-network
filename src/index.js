@@ -12,11 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 export let rerenderEntireTree = (state) =>{
 
     root.render(
-        <React.StrictMode>
-            <App state={store.getState()}
-                 addPost={store.addPost.bind(store)}
-                 updateNewPostText={store.updateNewPostText.bind(store)}/>
-        </React.StrictMode>
+            <App state={store.getState()} //не менять на state!
+                 dispatch={store.dispatch.bind(store)}
+                 />
     );}
 rerenderEntireTree(store.getState());
 store.subscribe(rerenderEntireTree);

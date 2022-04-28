@@ -9,6 +9,7 @@ import Music from "./compoNents/Music/Music";
 import Settings from "./compoNents/Settings/Settings";
 
 function App(props) {
+
     return (
         <BrowserRouter>
             <div className="App">
@@ -21,12 +22,13 @@ function App(props) {
                             <Routes>
                                 <Route path='/profile' element={
                                     <UserProfile userProfile={props.state.userProfile}
-                                                 addPost={props.addPost}
-                                                 updateNewPostText={props.updateNewPostText}
+                                                 dispatch={props.dispatch}
+
 
                                     />}/>
                                 <Route path='/dialogs/*' element={
                                     <Dialogs state={props.state.dialogs}
+                                             dispatch={props.dispatch}
                                     />}/>
                                 <Route path='/feed' element={<News/>}/>
                                 <Route path='/music' element={<Music/>}/>

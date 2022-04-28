@@ -16,9 +16,8 @@ const UserProfile = (props) => {
                 My posts
             </div>
             <UserTextarea
-                addPost={props.addPost}
-                updateNewPostText={props.updateNewPostText}
                 userProfile={props.userProfile}
+                dispatch={props.dispatch}
             />
             <UserPosts postsData={props.userProfile.postsData}  />
         </div>

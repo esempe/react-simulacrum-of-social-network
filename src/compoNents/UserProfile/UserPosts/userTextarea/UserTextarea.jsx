@@ -1,21 +1,18 @@
 import React from 'react'
 import style from './UserTextarea.module.css'
-import store from "../../../../redux/state";
+import store, {addPostActionCreator, updateNewPostTextActionCreator} from "../../../../redux/state";
 
 
 const UserTextarea = (props) => {
     /////////
     let newPostElement = React.createRef();
     let addPost = () => {
-        props.addPost();
-        props.updateNewPostText('5');
+        props.dispatch(addPostActionCreator());
     }
 
     let onPostChange = () => {
         let postMessage = newPostElement.current.value;
-        props.updateNewPostText(postMessage);
-        console.log(props.userProfile.newPostText)
-
+        props.dispatch(updateNewPostTextActionCreator(postMessage));
     }
     ////////
     return (
@@ -23,7 +20,7 @@ const UserTextarea = (props) => {
             <textarea className={style.UserTextarea_input}
                       ref={newPostElement}
                       onChange={onPostChange}
-                      value={props.newPostText}
+                      value={props.userProfile.newPostText}
             />
             <div className={style.UserTextarea_button}
                  onClick={addPost}>

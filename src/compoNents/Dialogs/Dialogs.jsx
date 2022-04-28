@@ -3,6 +3,7 @@ import style from './Dialogs.module.css'
 import СonversationItem from "./СonversationItem/СonversationItem";
 import MessagesWrapper from "./MessagesWrapper/MessagesWrapper";
 import UserTextarea from "../UserProfile/UserPosts/userTextarea/UserTextarea";
+import DialogsTextarea from "./dialogsTextarea/dialogsTextarea";
 
 const Dialogs = (props) => {
     let messageElements = props.state.messageData.map( (message) =>
@@ -22,7 +23,10 @@ const Dialogs = (props) => {
                 </div>
                 <div className={style.conversation}>
                     {messageElements} {/*insert array of messages*/}
-                    <UserTextarea/>
+                    <DialogsTextarea
+                        state={props.state}
+                        dispatch={props.dispatch}
+                    />
                 </div>
             </div>
         </div>
