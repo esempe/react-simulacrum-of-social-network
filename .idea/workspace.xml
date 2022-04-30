@@ -5,12 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/userTextarea/UserTextarea.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/userTextarea/UserTextarea.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/dialogsTextarea/dialogsTextarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/dialogsTextarea/dialogsTextarea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/dialogsTextarea/dialogsTextareaContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/dialogsTextarea/dialogsTextareaContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/userTextarea/UserTextarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/userTextarea/UserTextarea.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/userProfileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/userProfileReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +31,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="27wBcRfbq0ortpCSm41v4NPhC2D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/front-end-web-LEARN/1REPOS/react-simulacrum-of-social-network/src/compoNents/Dialogs/dialogsTextarea",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "Z:\\soft fast\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/front-end-web-LEARN/1REPOS/react-simulacrum-of-social-network/src/compoNents/Dialogs/dialogsTextarea&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;Z:\\soft fast\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\front-end-web-LEARN\1REPOS\react-simulacrum-of-social-network\src\compoNents\Dialogs\dialogsTextarea" />
@@ -75,7 +74,8 @@
       <workItem from="1650221358545" duration="633000" />
       <workItem from="1650269869089" duration="38551000" />
       <workItem from="1650708938719" duration="65336000" />
-      <workItem from="1651320688262" duration="8357000" />
+      <workItem from="1651320688262" duration="12424000" />
+      <workItem from="1651341147613" duration="2136000" />
     </task>
     <servers />
   </component>
@@ -99,19 +99,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
           <line>28</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

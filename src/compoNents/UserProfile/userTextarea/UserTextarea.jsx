@@ -9,7 +9,6 @@ const UserTextarea = (props) => {
     let addPost = () => {
         props.addPost()
     }
-
     let onPostChange = () => {
         let postMessage = newPostElement.current.value;
         props.updateNewPostText(postMessage)

@@ -12,12 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 export let rerenderEntireTree = (state) =>{
 
     root.render(
-            <App state={store.getState()}
-                 store={store}
-                 dispatch={store.dispatch.bind(store)}
-                 />
+            <App store={store}/>
     );}
-rerenderEntireTree(store.getState());
+rerenderEntireTree(store);
 store.subscribe(rerenderEntireTree);
 
 

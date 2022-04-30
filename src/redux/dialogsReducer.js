@@ -27,7 +27,7 @@ const dialogsReducer = (state = initialState, action) =>{
     switch (action.type){
         case SEND_MESSAGE:
             let newMessage = {
-                id: 5,
+                id: 911,
                 message: state.newMessageText,
             }
             state.messageData.push(newMessage);

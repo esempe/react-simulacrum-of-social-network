@@ -20,15 +20,15 @@ function App(props) {
                         <div className="main-container">
                             <Routes>
                                 <Route path='/profile' element={
-                                    <UserProfile userProfile={props.state.userProfile}
+                                    <UserProfile
                                                  store={props.store}
 
 
                                     />}/>
                                 <Route path='/dialogs/*' element={
-                                    <Dialogs state={props.state.dialogs}
+                                    <Dialogs
                                              store={props.store}
-                                             dispatch={props.dispatch}
+
                                     />}/>
                                 <Route path='/feed' element={<News/>}/>
                                 <Route path='/music' element={<Music/>}/>
