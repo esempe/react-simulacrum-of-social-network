@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734d8b43-e94b-469d-bfa7-836ca1bf44d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/dialogsTextarea/UserTextarea.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/dialogsTextarea/dialogsTextarea.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/userProfile_reducer" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/userProfileReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/front-end-web-LEARN/1REPOS/react-simulacrum-of-social-network/src/compoNents/Dialogs",
+    "last_opened_file_path": "E:/front-end-web-LEARN/1REPOS/react-simulacrum-of-social-network/src/redux",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -55,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\front-end-web-LEARN\1REPOS\react-simulacrum-of-social-network\src\redux" />
       <recent name="E:\front-end-web-LEARN\1REPOS\react-simulacrum-of-social-network\src\compoNents\Dialogs" />
     </key>
   </component>
@@ -69,6 +67,7 @@
       <workItem from="1650221358545" duration="633000" />
       <workItem from="1650269869089" duration="38551000" />
       <workItem from="1650708938719" duration="65336000" />
+      <workItem from="1651320688262" duration="1657000" />
     </task>
     <servers />
   </component>

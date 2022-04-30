@@ -3,7 +3,7 @@ import Header from './compoNents/header/Header';
 import SideNav from './compoNents/SideNav/SideNav';
 import UserProfile from './compoNents/UserProfile/UserProfile';
 import Dialogs from "./compoNents/Dialogs/Dialogs";
-import {Routes, Route, Outlet, BrowserRouter,} from "react-router-dom";
+import {Routes, Route,  BrowserRouter,} from "react-router-dom";
 import News from "./compoNents/News/News";
 import Music from "./compoNents/Music/Music";
 import Settings from "./compoNents/Settings/Settings";
