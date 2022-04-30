@@ -12,7 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 export let rerenderEntireTree = (state) =>{
 
     root.render(
-            <App state={store.getState()} //не менять на state!
+            <App state={store.getState()}
+                 store={store}
                  dispatch={store.dispatch.bind(store)}
                  />
     );}

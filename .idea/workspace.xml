@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="734d8b43-e94b-469d-bfa7-836ca1bf44d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/UserPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/userTextarea/UserTextarea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserPosts/userTextarea/UserTextarea.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/userTextarea/UserTextarea.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/compoNents/UserProfile/UserProfile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/userProfile_reducer" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/userProfileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/userProfileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/userProfileReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/front-end-web-LEARN/1REPOS/react-simulacrum-of-social-network/src/redux",
+    "last_opened_file_path": "E:/front-end-web-LEARN/1REPOS/react-simulacrum-of-social-network/src/compoNents/Dialogs/dialogsTextarea",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -52,8 +56,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\front-end-web-LEARN\1REPOS\react-simulacrum-of-social-network\src\compoNents\Dialogs\dialogsTextarea" />
       <recent name="E:\front-end-web-LEARN\1REPOS\react-simulacrum-of-social-network\src\redux" />
       <recent name="E:\front-end-web-LEARN\1REPOS\react-simulacrum-of-social-network\src\compoNents\Dialogs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\front-end-web-LEARN\1REPOS\react-simulacrum-of-social-network\src\compoNents\UserProfile" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +75,7 @@
       <workItem from="1650221358545" duration="633000" />
       <workItem from="1650269869089" duration="38551000" />
       <workItem from="1650708938719" duration="65336000" />
-      <workItem from="1651320688262" duration="1657000" />
+      <workItem from="1651320688262" duration="8357000" />
     </task>
     <servers />
   </component>
@@ -84,5 +92,29 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

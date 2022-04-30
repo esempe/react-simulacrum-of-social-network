@@ -1,9 +1,10 @@
 import React from 'react'
 import { UserPosts } from './UserPosts/UserPosts'
 import style from './UserProfile.module.css'
-import UserTextarea from './UserPosts/userTextarea/UserTextarea'
+
 import UserProfileInfo from './userProfileInfo/UserProfileInfo'
 import UserWallpaper from './userWallpaper/UserWallpaper'
+import UserTextareaContainer from "./userTextarea/UserTextareaContainer";
 
 
 const UserProfile = (props) => {
@@ -15,11 +16,11 @@ const UserProfile = (props) => {
             <div className={style.UserTextarea_tittle}>
                 My posts
             </div>
-            <UserTextarea
-                userProfile={props.userProfile}
-                dispatch={props.dispatch}
+            <UserTextareaContainer
+                store={props.store}
             />
-            <UserPosts postsData={props.userProfile.postsData}  />
+            <UserPosts store={props.store}
+            />
         </div>
     )
 }

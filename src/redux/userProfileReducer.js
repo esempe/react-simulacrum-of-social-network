@@ -9,7 +9,7 @@ let initialState = {
         {id: 4, message: 'ramires little dirty', likeCount: '332'},
         {id: 5, message: 'my first post!!!', likeCount: '21'},
     ],
-    newPostText: 'cxcxcxxc'
+    newPostText: ''
 }
 
 const userProfileReducer = (state = initialState, action) => {
@@ -22,7 +22,6 @@ const userProfileReducer = (state = initialState, action) => {
             }
             state.postsData.push(newPost);
             state.newPostText = '';
-            console.log(state)
             return state;
 
         case UPDATE_NEW_POST_TEXT:

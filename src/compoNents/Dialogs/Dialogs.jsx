@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Dialogs.module.css'
 import СonversationItem from "./СonversationItem/СonversationItem";
 import MessagesWrapper from "./MessagesWrapper/MessagesWrapper";
-import UserTextarea from "../UserProfile/UserPosts/userTextarea/UserTextarea";
+import UserTextarea from "../UserProfile/userTextarea/UserTextarea";
 import DialogsTextarea from "./dialogsTextarea/dialogsTextarea";
 
 const Dialogs = (props) => {

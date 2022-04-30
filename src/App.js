@@ -9,7 +9,6 @@ import Music from "./compoNents/Music/Music";
 import Settings from "./compoNents/Settings/Settings";
 
 function App(props) {
-
     return (
         <BrowserRouter>
             <div className="App">
@@ -17,17 +16,18 @@ function App(props) {
                 <div className="global-container">
                     <Header/>
                     <main className="main-flex">
-                        <SideNav state={props.state.sideNav}/>
+                        <SideNav state={props.store.getState().sideNav}/>
                         <div className="main-container">
                             <Routes>
                                 <Route path='/profile' element={
                                     <UserProfile userProfile={props.state.userProfile}
-                                                 dispatch={props.dispatch}
+                                                 store={props.store}
 
 
                                     />}/>
                                 <Route path='/dialogs/*' element={
                                     <Dialogs state={props.state.dialogs}
+                                             store={props.store}
                                              dispatch={props.dispatch}
                                     />}/>
                                 <Route path='/feed' element={<News/>}/>
